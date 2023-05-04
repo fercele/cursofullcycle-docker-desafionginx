@@ -1,1 +1,0 @@
-Pasta onde será armazenado localmente o banco de dados MySQL
