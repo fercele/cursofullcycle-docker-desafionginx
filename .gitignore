@@ -1,0 +1,4 @@
+/node/node_modules
+/db/mysql/*
+/nginx/logs/*
+!LEIAME.txt
