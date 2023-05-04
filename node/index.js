@@ -43,7 +43,6 @@ app.get('/', async (req, res) => {
             // console.log("error: ", error);
 
             if (error) {
-                // Handle database error
                 console.error(error);
                 res.status(500).send('Database error');
                 return;
@@ -74,7 +73,6 @@ app.get('/', async (req, res) => {
                 
                 res.send(html);
             } catch (error) {
-                // Handle unexpected error
                 console.error(error);
                 res.status(500).send('Erro realizando operações no banco de dados.');
 
@@ -86,7 +84,6 @@ app.get('/', async (req, res) => {
         });
 
     } catch (error) {
-        // Handle unexpected error
         console.error(error);
         res.status(500).send('Erro inesperado.');
     } 
